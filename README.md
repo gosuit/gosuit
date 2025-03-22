@@ -16,6 +16,7 @@ Here is the list of tools provided:
 - <a href="https://github.com/gosuit/minio">MinIO client</a>
 - <a href="https://github.com/gosuit/migrate">Migrations runner</a>
 - <a href="https://github.com/gosuit/mail">Simple mailling</a>
+- <a href="https://github.com/gosuit/gins">Lec syntactic sugar for Gin</a>
 - <a href="https://github.com/gosuit/utils">Usefull utils</a>
 
 ## Configuration
