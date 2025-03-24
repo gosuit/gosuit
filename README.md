@@ -9,6 +9,7 @@ Here is the list of tools provided:
 - <a href="https://github.com/gosuit/e">Error handling</a>
 - <a href="https://github.com/gosuit/sl">Logging</a>
 - <a href="https://github.com/gosuit/lec">Logging Error Context</a>
+- <a href="https://github.com/gosuit/confy">Configuration reader</a>
 - <a href="https://github.com/gosuit/httper">Working with HTTP</a>
 - <a href="https://github.com/gosuit/pg">PostgreSQL client</a>
 - <a href="https://github.com/gosuit/rs">Redis client</a>
@@ -21,7 +22,7 @@ Here is the list of tools provided:
 
 ## Configuration
 
-All configuration types in the GoSuit have YAML and ENV struct tags. We recommend use <a href="https://github.com/ilyakaznacheev/cleanenv">CleanEnv</a> to upload configs.
+All configuration types in the GoSuit have YAML, JSON and ENV struct tags. We recommend use <a href="https://github.com/gosuit/confy">Confy</a> or <a href="https://github.com/ilyakaznacheev/cleanenv">CleanEnv</a> to read configs.
 
 ### Exampe
 
@@ -29,7 +30,7 @@ All configuration types in the GoSuit have YAML and ENV struct tags. We recommen
 package main
 
 import (
-  "github.com/ilyakaznacheev/cleanenv"
+  "github.com/gosuit/confy"
   "github.com/gosuit/pg"
   "github.com/gosuit/rs"
 )
@@ -43,7 +44,7 @@ func main() {
   path := "config.yaml"
   var cfg Config
 
-  err := cleanenv.ReadConfig(path, &cfg)
+  err := confy.Get(path, &cfg)
   if err != nil {
     // Handle error...
   }
