@@ -30,25 +30,26 @@ All configuration types in the GoSuit have YAML, JSON and ENV struct tags. We re
 package main
 
 import (
-  "github.com/gosuit/confy"
-  "github.com/gosuit/pg"
-  "github.com/gosuit/rs"
+	"github.com/gosuit/confy"
+	"github.com/gosuit/pg"
+	"github.com/gosuit/rs"
 )
 
 type Config struct {
-  Postgres pg.Config `yaml:"postgres"`
-  Redis    rs.Config `yaml:"redis"`
+	Postgres pg.Config `yaml:"postgres"`
+	Redis    rs.Config `yaml:"redis"`
 }
 
 func main() {
-  path := "config.yaml"
-  var cfg Config
+	path := "config.yaml"
+	var cfg Config
 
-  err := confy.Get(path, &cfg)
-  if err != nil {
-    // Handle error...
-  }
+	err := confy.Get(path, &cfg)
+	if err != nil {
+		// Handle error...
+	}
 
-  // Use config...
+	// Use config...
 }
+
 ```
