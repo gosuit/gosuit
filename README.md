@@ -22,7 +22,7 @@ Here is the list of tools provided:
 
 ## Configuration
 
-All configuration types in the GoSuit have YAML, JSON and ENV struct tags. We recommend use <a href="https://github.com/gosuit/confy">Confy</a> or <a href="https://github.com/ilyakaznacheev/cleanenv">CleanEnv</a> to read configs.
+All configuration types in the GoSuit have CONFY, YAML, JSON, TOML and ENV struct tags. We recommend use <a href="https://github.com/gosuit/confy">Confy</a> or <a href="https://github.com/ilyakaznacheev/cleanenv">CleanEnv</a> to read configs.
 
 ### Exampe
 
@@ -36,8 +36,8 @@ import (
 )
 
 type Config struct {
-	Postgres pg.Config `yaml:"postgres"`
-	Redis    rs.Config `yaml:"redis"`
+	Postgres pg.Config `confy:"postgres"`
+	Redis    rs.Config `confy:"redis"`
 }
 
 func main() {
