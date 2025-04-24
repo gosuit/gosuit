@@ -1,6 +1,6 @@
 # Hi there 👋
 
-GoSuit is a collection of tools for Go developers. It is designed to make things like error handling, configuration, and others simpler and more concise. You can see examples of using the library in the <a href="https://github.com/nikitaSstepanov/go-template">go-template</a>.
+GoSuit is a collection of tools for Go developers. It is designed to make things like error handling, configuration, and others simpler and more concise. You can see examples of using the library in the <a href="https://github.com/gosuit/go-template">go-template</a>.
 
 ## Tools
 
