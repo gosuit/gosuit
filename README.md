@@ -21,4 +21,4 @@ Here is the list of tools provided:
 - [Simple mailling](https://github.com/gosuit/mail)
 - [Lec syntactic sugar for Gin](https://github.com/gosuit/gins)
 - [Encryption](https://github.com/gosuit/coder)
-- [Values generation](https://github.com/generator)
+- [Values generation](https://github.com/gosuit/generator)
