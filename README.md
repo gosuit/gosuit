@@ -20,4 +20,5 @@ Here is the list of tools provided:
 - [Migrations runner](https://github.com/gosuit/migrate)
 - [Simple mailling](https://github.com/gosuit/mail)
 - [Lec syntactic sugar for Gin](https://github.com/gosuit/gins)
-- [Usefull utils](https://github.com/gosuit/utils)
+- [Encryption](https://github.com/gosuit/coder)
+- [Values generation](https://github.com/generator)
