@@ -19,6 +19,6 @@ Here is the list of tools provided:
 - [MinIO client](https://github.com/gosuit/minio)
 - [Migrations runner](https://github.com/gosuit/migrate)
 - [Simple mailling](https://github.com/gosuit/mail)
-- [Lec syntactic sugar for Gin](https://github.com/gosuit/gins)
+- [Suit for Gin](https://github.com/gosuit/gins)
 - [Encryption](https://github.com/gosuit/coder)
 - [Values generation](https://github.com/gosuit/generator)
