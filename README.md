@@ -10,7 +10,7 @@ Here is the list of tools provided:
 
 - [Error handling](https://github.com/gosuit/e)
 - [Logging](https://github.com/gosuit/sl)
-- [Logging Error Context](https://github.com/gosuit/lec)
+- [Extended Context](https://github.com/gosuit/c)
 - [Configuration reader](https://github.com/gosuit/confy)
 - [Working with HTTP](https://github.com/gosuit/httper)
 - [PostgreSQL client](https://github.com/gosuit/pg)
