@@ -12,6 +12,7 @@ Here is the list of tools provided:
 - [Logging](https://github.com/gosuit/sl)
 - [Extended Context](https://github.com/gosuit/c)
 - [Configuration reader](https://github.com/gosuit/confy)
+- [Boot injection](https://github.com/gosuit/boot)
 - [Working with HTTP](https://github.com/gosuit/httper)
 - [PostgreSQL client](https://github.com/gosuit/pg)
 - [Redis client](https://github.com/gosuit/rs)
